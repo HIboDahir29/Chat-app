@@ -1,0 +1,8 @@
+# capstone-chat-app
+
+The summary represents an overview of the design and development of the chat application. The review will describe software development requirements. The chat application allows different users to communicate, and the user can join different chat rooms. The chat app is a real-time chat application. The purpose of the project is to put our knowledge into action and produce material that can help us to test our understanding of our program. This project is a form of encouragement to work on my critical thinking and problem-solving skills. I will be working 4-8 hours a week on this project independently with the guidance of my advisor Pawel Buda. I will be using Express to set up a primary web server. WebSocket is excellent for two-way interactive communication between the browser and a server. 
+
+Summary Of the Chat Application
+
+	Using 'npm run dev' on the terminal makes the application start. The application is running on 'port 3000'. Once the app is running, the app directs to the join page. At this page, the user requested to fill the information of the room and the username. Two or more users can join the same 'room' using the common chatroom name. 
+	The app covers the simple functionality of chatting, and there is a visible list of users in the chatroom. Web socket is excellent in communicating between the server and client. Using a built-in function like emit, io, and broadcast has allowed the app to send and receive the messages. The user can also send location with the consent of the user. There is a notification for users connecting and disconnecting from the chatroom.
